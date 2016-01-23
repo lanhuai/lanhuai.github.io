@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[老水豚の草垛]]></title>
-  <subtitle><![CDATA[跟不上时代的老码农]]></subtitle>
+  <subtitle><![CDATA[跟不上时代的老码农，关注Java、微服务、Docker、持续集成、DevOps]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lanhuai.github.io/"/>
   <updated>2016-01-23T06:26:07.000Z</updated>

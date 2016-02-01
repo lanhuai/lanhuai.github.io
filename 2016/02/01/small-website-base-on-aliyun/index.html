@@ -6,10 +6,10 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="老水豚の草垛">
-    <title>Hello World - 老水豚の草垛</title>
+    <title>基于阿里云的小网站结构 - 老水豚の草垛</title>
     <meta name="author" content="Brady">
     
-        <meta name="keywords" content="Java,microservices,微服务,Docker,持续集成,DevOps,">
+        <meta name="keywords" content="Java,microservices,微服务,Docker,持续集成,DevOps,阿里云,云计算,云存储,">
     
     
         <link rel="icon" href="/assets/images/favicon.ico">
@@ -17,16 +17,35 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+    <meta name="description" content="「阿里云ECS」的磁盘不支持共享，可以用「对象存储OSS」放一些用户上传的东西，通过每个「阿里云ECS」进行读取写入。
+Session共享
+Spring Session 支持 Redis，与「云数据库Redis版」搭配使用 
+memcached session manager 只可以在Tomcat上使用，与「云数据库Memcache版」搭配使用
+
+
+「云数据库RDS」支持读写分离，暂时不太了解">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="/2016/01/23/hello-world/index.html">
+<meta property="og:title" content="基于阿里云的小网站结构">
+<meta property="og:url" content="/2016/02/01/small-website-base-on-aliyun/index.html">
 <meta property="og:site_name" content="老水豚の草垛">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
-<meta property="og:updated_time" content="2016-01-23T14:26:35.000Z">
+<meta property="og:description" content="「阿里云ECS」的磁盘不支持共享，可以用「对象存储OSS」放一些用户上传的东西，通过每个「阿里云ECS」进行读取写入。
+Session共享
+Spring Session 支持 Redis，与「云数据库Redis版」搭配使用 
+memcached session manager 只可以在Tomcat上使用，与「云数据库Memcache版」搭配使用
+
+
+「云数据库RDS」支持读写分离，暂时不太了解">
+<meta property="og:image" content="/2016/02/01/small-website-base-on-aliyun/small-website-base-on-aliyun.png">
+<meta property="og:updated_time" content="2016-02-01T14:01:52.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta name="twitter:title" content="基于阿里云的小网站结构">
+<meta name="twitter:description" content="「阿里云ECS」的磁盘不支持共享，可以用「对象存储OSS」放一些用户上传的东西，通过每个「阿里云ECS」进行读取写入。
+Session共享
+Spring Session 支持 Redis，与「云数据库Redis版」搭配使用 
+memcached session manager 只可以在Tomcat上使用，与「云数据库Memcache版」搭配使用
+
+
+「云数据库RDS」支持读写分离，暂时不太了解">
     
     
         
@@ -210,19 +229,19 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            Hello World
+            基于阿里云的小网站结构
         </h1>
     
     <div class="post-meta">
-    <time itemprop="datePublished" content="Sat Jan 23 2016 22:26:35 GMT+0800">
+    <time itemprop="datePublished" content="Mon Feb 01 2016 20:54:37 GMT+0800">
 	
-		    1月 23, 2016
+		    2月 01, 2016
     	
     </time>
     
         <span>发布在 </span>
         
-    <a class="category-link" href="/categories/test/">测试</a>, <a class="category-link" href="/categories/test/markdown/">markdown</a>
+    <a class="category-link" href="/categories/cloud-computing/">云计算</a>
 
 
     
@@ -231,16 +250,17 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a><br><h1 id="table-of-contents">目录</h1><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick_Start"><span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create_a_new_post"><span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run_server"><span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate_static_files"><span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy_to_remote_sites"><span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol></p>
-<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+            <p><img src="/2016/02/01/small-website-base-on-aliyun/small-website-base-on-aliyun.png" alt=""></p>
+<ul>
+<li>「阿里云ECS」的磁盘不支持共享，可以用「对象存储OSS」放一些用户上传的东西，通过每个「阿里云ECS」进行读取写入。</li>
+<li>Session共享<ul>
+<li><a href="http://projects.spring.io/spring-session/" target="_blank" rel="external">Spring Session</a> 支持 Redis，与「云数据库Redis版」搭配使用 </li>
+<li><a href="https://github.com/magro/memcached-session-manager" target="_blank" rel="external">memcached session manager</a> 只可以在Tomcat上使用，与「云数据库Memcache版」搭配使用</li>
+</ul>
+</li>
+<li>「云数据库RDS」支持读写分离，暂时不太了解</li>
+</ul>
+<a id="more"></a>
 
             
                 
@@ -249,6 +269,13 @@
         </div>
     </div>
     <div id="post-footer" class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">标签</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/aliyun/">阿里云</a>
+
+            </div>
         
         <div class="post-actions-wrap">
     <nav>
@@ -263,7 +290,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/01/23/hello/" data-tooltip="hello">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
                     <i class="fa fa-angle-right"></i>
@@ -278,17 +305,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2016/01/23/hello-world/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2016/02/01/small-website-base-on-aliyun/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2016/01/23/hello-world/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2016/02/01/small-website-base-on-aliyun/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2016/01/23/hello-world/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2016/02/01/small-website-base-on-aliyun/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -301,7 +328,7 @@
         
         <li class="post-action">
             
-                <a class="post-action-btn btn btn--default" href="#table-of-contents">
+                <a class="post-action-btn btn btn--default" href="#">
             
                 <i class="fa fa-list"></i>
             </a>
@@ -344,7 +371,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/01/23/hello/" data-tooltip="hello">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
                     <i class="fa fa-angle-right"></i>
@@ -359,17 +386,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2016/01/23/hello-world/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2016/02/01/small-website-base-on-aliyun/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2016/01/23/hello-world/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2016/02/01/small-website-base-on-aliyun/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2016/01/23/hello-world/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2016/02/01/small-website-base-on-aliyun/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -382,7 +409,7 @@
         
         <li class="post-action">
             
-                <a class="post-action-btn btn btn--default" href="#table-of-contents">
+                <a class="post-action-btn btn btn--default" href="#">
             
                 <i class="fa fa-list"></i>
             </a>
@@ -395,17 +422,17 @@
                 <div id="share-options-bar" class="share-options-bar" data-behavior="3">
     <ul class="share-options">
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=/2016/01/23/hello-world/">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=/2016/02/01/small-website-base-on-aliyun/">
                 <i class="fa fa-google-plus"></i><span class="">分享到 Google+</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2016/01/23/hello-world/">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2016/02/01/small-website-base-on-aliyun/">
                 <i class="fa fa-facebook-official"></i><span>分享到 Facebook</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=/2016/01/23/hello-world/">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=/2016/02/01/small-website-base-on-aliyun/">
                 <i class="fa fa-twitter"></i><span>分享到 Twitter</span>
             </a>
         </li>
@@ -462,9 +489,9 @@
     
         <script>
              var disqus_config = function () {
-                 this.page.url = '/2016/01/23/hello-world/';
+                 this.page.url = '/2016/02/01/small-website-base-on-aliyun/';
                  
-                    this.page.identifier = '2016/01/23/hello-world/';
+                    this.page.identifier = '2016/02/01/small-website-base-on-aliyun/';
                                   
              };
             (function() {

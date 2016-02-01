@@ -3,9 +3,9 @@
   <title><![CDATA[老水豚の草垛]]></title>
   <subtitle><![CDATA[跟不上时代的老码农]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="/"/>
+  <link href="https://lanhuai.github.io/"/>
   <updated>2016-02-01T14:05:52.000Z</updated>
-  <id>/</id>
+  <id>https://lanhuai.github.io/</id>
   
   <author>
     <name><![CDATA[Brady]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[基于阿里云的小网站结构]]></title>
-    <link href="/2016/02/01/small-website-base-on-aliyun/"/>
-    <id>/2016/02/01/small-website-base-on-aliyun/</id>
+    <link href="https://lanhuai.github.io/2016/02/01/small-website-base-on-aliyun/"/>
+    <id>https://lanhuai.github.io/2016/02/01/small-website-base-on-aliyun/</id>
     <published>2016-02-01T12:54:37.000Z</published>
     <updated>2016-02-01T14:05:52.000Z</updated>
     <content type="html"><![CDATA[<p><img src="/2016/02/01/small-website-base-on-aliyun/small-website-base-on-aliyun.png" alt=""></p>
@@ -46,9 +46,9 @@
     
     </summary>
     
-      <category term="阿里云" scheme="/tags/aliyun/"/>
+      <category term="阿里云" scheme="https://lanhuai.github.io/tags/aliyun/"/>
     
-      <category term="云计算" scheme="/categories/cloud-computing/"/>
+      <category term="云计算" scheme="https://lanhuai.github.io/categories/cloud-computing/"/>
     
   </entry>
   

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[跟不上时代的老码农]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/"/>
-  <updated>2016-02-01T14:01:52.000Z</updated>
+  <updated>2016-02-01T14:05:52.000Z</updated>
   <id>/</id>
   
   <author>
@@ -19,12 +19,12 @@
     <link href="/2016/02/01/small-website-base-on-aliyun/"/>
     <id>/2016/02/01/small-website-base-on-aliyun/</id>
     <published>2016-02-01T12:54:37.000Z</published>
-    <updated>2016-02-01T14:01:52.000Z</updated>
+    <updated>2016-02-01T14:05:52.000Z</updated>
     <content type="html"><![CDATA[<p><img src="/2016/02/01/small-website-base-on-aliyun/small-website-base-on-aliyun.png" alt=""></p>
 <ul>
 <li>「阿里云ECS」的磁盘不支持共享，可以用「对象存储OSS」放一些用户上传的东西，通过每个「阿里云ECS」进行读取写入。</li>
 <li>Session共享<ul>
-<li><a href="http://projects.spring.io/spring-session/" target="_blank" rel="external">Spring Session</a> 支持 Redis，与「云数据库Redis版」搭配使用 </li>
+<li><a href="http://projects.spring.io/spring-session/" target="_blank" rel="external">Spring Session</a> 支持 Redis，与「云数据库Redis版」搭配使用</li>
 <li><a href="https://github.com/magro/memcached-session-manager" target="_blank" rel="external">memcached session manager</a> 只可以在Tomcat上使用，与「云数据库Memcache版」搭配使用</li>
 </ul>
 </li>
@@ -37,7 +37,7 @@
 <ul>
 <li>「阿里云ECS」的磁盘不支持共享，可以用「对象存储OSS」放一些用户上传的东西，通过每个「阿里云ECS」进行读取写入。</li>
 <li>Session共享<ul>
-<li><a href="http://projects.spring.io/spring-session/">Spring Session</a> 支持 Redis，与「云数据库Redis版」搭配使用 </li>
+<li><a href="http://projects.spring.io/spring-session/">Spring Session</a> 支持 Redis，与「云数据库Redis版」搭配使用</li>
 <li><a href="https://github.com/magro/memcached-session-manager">memcached session manager</a> 只可以在Tomcat上使用，与「云数据库Memcache版」搭配使用</li>
 </ul>
 </li>
